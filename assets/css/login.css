@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
@@ -52,4 +52,71 @@ body {
 
 .layui-input {
   padding-left: 32px;
+} */
+
+
+/* ________________________________________ */
+
+
+/* own code */
+
+
+/* 背景图片样式 */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title-box {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+
+/* 登录框样式 */
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+
+/* 字体图标样式 */
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
 }
